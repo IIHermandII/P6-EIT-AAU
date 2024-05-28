@@ -1,0 +1,1 @@
+ -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-g,--no-relax$(MP_EXTRA_AS_POST)  -mdfp="${DFP_DIR}/xc16"C:\Users\emill\OneDrive - Aalborg Universitet\EIT P6\Project\DSP\CODE\ACN-LMS-EIT.X\MAC_Manager.S

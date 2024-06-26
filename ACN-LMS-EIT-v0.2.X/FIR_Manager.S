@@ -1,9 +1,8 @@
-    /********************************************
-    *	DO NOT REMOVE THIS LABLE.		*
+    /********************************************		
     *	@auther	    Emil Leth Høimark	        *
-    *	@place	    AAU, Denmark		*	
-    *	@EIT	    6, spring semester 2024	*	
-    *	@Title	    MAC EXEMPLS	FOR MY AND	*
+    *	@place	    AAU, Denmark		*
+    *	@EIT	    6, spring semester 2024	*
+    *	@Title	    FxNLMS and FIR		* 
     ********************************************/
     
 .global _FIR_FILTER_EXECUTE_NLMS

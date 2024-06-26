@@ -1,11 +1,8 @@
-    /********************************************
-    *	DO NOT REMOVE THIS LABLE.		*
+    /********************************************		
     *	@auther	    Emil Leth Høimark	        *
-    *	@place	    AAU, Denmark		*	
-    *	@EIT	    6, spring semester 2024	*	
-    *	@Title	    MAC EXEMPLS	FOR MY AND	*
-    *		    MAGNUS GROOP                *
-    *	@time	    7h,3m			*
+    *	@place	    AAU, Denmark		*
+    *	@EIT	    6, spring semester 2024	*
+    *	@Title	    Test script 		* 
     ********************************************/
     
 .global _TST_FILL_IIR_OUTPUT

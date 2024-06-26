@@ -4,19 +4,6 @@
     *	@EIT	    6, spring semester 2024	*
     *	@Title	    MAIN ASM			*   
     *********************************************
-    *	 ---REGISTER RESERVED FOR POGRAM---	*
-    *	0x3000		    |	MODE 1 2 3  	*
-    *	0x2020		    |	ADC Error	*
-    *	0x2022		    |	ADC Input, IIR	*
-    *	0x2024		    |	SAMPLE ACCESS	*			    
-    *	[0X73E2 to 0X7408]  |	IIR FILTER	*
-    *	[0X13E2 to 0X1408]  |	IIR PAST OUTPUTS*
-    *	[0X83E2	to 0X8408]  |	FIR W(n) Y-RAM	*
-    *	0x1010		    |	BPORT OUTPUT	*
-    *	0x1012		    |	CPORT OUTPUT	*
-    *	0x1014		    |	DPORT OUTPUT	*
-    *	0x1016		    |	EPORT OUTPUT	*
-    ********************************************/
 	
     // FVI you cant bset/bclr 0x2022 only REGISTER_NAME
     // If you not use .equ as seen in DAC SETUP

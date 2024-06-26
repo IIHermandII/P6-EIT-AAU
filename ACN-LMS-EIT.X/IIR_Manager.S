@@ -1,26 +1,9 @@
-    /********************************************
-    *	DO NOT REMOVE THIS LABLE.		*
+    /********************************************		
     *	@auther	    Emil Leth Høimark	        *
-    *	@place	    AAU, Denmark		*	
-    *	@EIT	    6, spring semester 2024	*	
-    *	@Title	    MAC EXEMPLS	FOR MY AND	*
+    *	@place	    AAU, Denmark		*
+    *	@EIT	    6, spring semester 2024	*
+    *	@Title	    IIR				* 
     ********************************************/
-    
-    /*********************************************
-    *	FILTER COEFFICIENTS:
-    *	[0X73E0 to 0X7408]
-    *	FILTER MODULO BUFFER STORAGE:
-    *	w8,	w2,	w3,	w4,
-    *	0X140A,	0X140C,	0X140E, 
-    *	pY	startY	endY	pY2
-    * 
-    *	OLD OUTPUTS:
-    *	[0X13E0 to 0X1408]	
-    *	OUTPUT MODULO BUFFER STORAGE:
-    *	w10,	w5,	w6,	w7
-    *   0X1410,	0X1412, 0X1414, 0X1416
-    *	pX	startX	endX	modcon	 
-    *********************************************/
  
 .global _IIR_FILTER_EXECUTE
 _IIR_FILTER_EXECUTE:		

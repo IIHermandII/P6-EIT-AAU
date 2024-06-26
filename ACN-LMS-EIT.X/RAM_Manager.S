@@ -1,10 +1,8 @@
-    /********************************************
-    *	DO NOT REMOVE THIS LABLE.		*
+    /********************************************		
     *	@auther	    Emil Leth Høimark	        *
-    *	@place	    AAU, Denmark		*	
-    *	@EIT	    6, spring semester 2024	*	
-    *	@Title	    PRIMIRY PATH IIR FILTER     *
-    *	@time	    10:37			*
+    *	@place	    AAU, Denmark		*
+    *	@EIT	    6, spring semester 2024	*
+    *	@Title	    Ram opset			* 
     ********************************************/
     
 .global _RAM_Setup

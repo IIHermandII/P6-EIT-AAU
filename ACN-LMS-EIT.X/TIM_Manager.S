@@ -2,8 +2,7 @@
     *	@auther	    Emil Leth Høimark	        *
     *	@place	    AAU, Denmark		*
     *	@EIT	    6, spring semester 2024	*
-    *	@Title	    TIMER1 AND INTERRUPT	*
-    *	@time					*
+    *	@Title	    Timer			* 
     ********************************************/
     .include "xc.inc"
        .text
@@ -33,8 +32,11 @@ _TIMER_INTERRUPT_SETUP:
     clr TMR1	    // clr the buffer of timer1
     mov #0x0300, w0 // 8MHz clock	    
     mov w0, T1CON
+    //-------------TEST---------------
+    mov #0xF3E7, w0
+    //--------------------------------
     //mov #0x03E7, w0	// 4kHz
-    mov #0x01E3, w0	// 8kHz
+    //mov #0x01E3, w0	// 8kHz
     //mov #0x012C, w0	// GOOD FOR MUCIK
     mov w0, PR1	 
     

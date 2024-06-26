@@ -1,10 +1,8 @@
-    /********************************************
-    *	DO NOT REMOVE THIS LABLE.		*
+    /********************************************		
     *	@auther	    Emil Leth Høimark	        *
-    *	@place	    AAU, Denmark		*	
-    *	@EIT	    6, spring semester 2024	*	
-    *	@Title	    MAC EXEMPLS	FOR MY AND	*
-    *		    MAGNUS GROOP                *
+    *	@place	    AAU, Denmark		*
+    *	@EIT	    6, spring semester 2024	*
+    *	@Title	    button manager		* 
     ********************************************/
     
 .global _BTN_SETUP
